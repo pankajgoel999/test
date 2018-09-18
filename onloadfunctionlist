@@ -1,0 +1,38 @@
+BindLandOwnerships( Ownership of Land ) MyAlt
+MyAlt bindOrganizationTypeList( Type Of Organization ) MyAlt
+MyAlt BindForestAreaTypes( Forest Area near to Land ) MyAlt
+MyAlt BindLandNatureListing( Nature of Land as per Revenue Records ) MyAlt
+MyAlt BindClarPurposes( Purpose of clarification Establishment ) MyAlt
+MyAlt LandMeasurementUnits( Land Measurement Units ) MyAlt
+MyAlt BindDistrictsList1( Place ) MyAlt
+MyAlt BindDistrictsList( District ) MyAlt
+MyAlt onLoadDefaultFormSettingsNoc( Other purpose, Other Ownership, Father's Name (हिंदी में), Father's Name, Other organization, Organization Name, Type Of Organization, Category) ) MyAlt
+
+
+
+District Change Function:
+GetCityFromDistrict2( District, City / Town / Village ) MyAlt
+
+Place:
+Place 	 MyAlt GetCityFromDistrict1( Place, City / Town ) MyAlt
+
+Type Of Organization :	
+MyAlt getOrganizationsNamesList( Type Of Organization, Organization Name ) MyAlt
+MyAlt showHideOtherOrgNameFieldNoc( Other organization, Organization Name, Type Of Organization) ) 
+
+//Felling
+
+MyAlt LandMeasurementUnits( Land Measurement Units ) MyAlt
+MyAlt bingFellingDistrcitList( District ) MyAlt
+MyAlt bindOrganizationTypeList( Type of Organization ) MyAlt
+MyAlt bindAgencyTypes( Felling Agency ) MyAlt
+MyAlt BindClarPurposes( Purpose ) MyAlt
+MyAlt BindDistrictsList( Citizen's District ) MyAlt
+
+//Tree Felling
+ MyAlt bindAgencyTypesProd( Felling Agency ) MyAlt
+MyAlt BindClarPurposes( Purpose ) MyAlt
+MyAlt LandMeasurementUnits( Land Measurement Units ) MyAlt
+MyAlt bindOrganizationTypeList( Type of Organization ) MyAlt
+MyAlt BindDistrictsList( District ) MyAlt
+MyAlt BindDistrictsList( Person's District ) MyAlt
